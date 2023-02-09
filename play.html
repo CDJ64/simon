@@ -4,8 +4,9 @@
         <!-- [head] -->
     </head>
     <body>
+        <!-- HEADER -->
         <header>
-            <h1>CDJ's Simon</h1>
+            <h1>Colin's Simon</h1>
             <nav>
                 <menu>
                     <li><a href="index.html">Index</a></li>
@@ -15,9 +16,65 @@
                 </menu>
             </nav>
         </header>
-        <!-- [more body]-->
+        <!-- MAIN -->
+        <main>
+            <div class="players">
+                Player:
+                <span class="player-name">Placeholder Name</span>
+            </div>
+            <div>
+                <label for="count">Score</label>
+                <input type="text" id="count" value="--" readonly />
+            </div>
+            <div>
+                <button>Reset</button>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                    <td>
+                        <button>
+                            <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
+                                <!-- SVG
+                                M move <to x,y>
+                                Q quadratic curve <control point x,y> <to x,y>
+                                -->
+                                <path d="M 95,5 95,95 5,95 5,5 95,5" fill="green" />
+                            </svg>
+                        </button>
+                    </td>
+                    <td>
+                        <button>
+                        <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
+                            <path d="M5,5 5,95 95,95 95,5 5,5" fill="red" />
+                        </svg>
+                        </button>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <button>
+                        <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
+                            <path d="M5,5 95,5 95,95 5,95 5,5" fill="blue" />
+                        </svg>
+                        </button>
+                    </td>
+                    <td>
+                        <button>
+                        <svg
+                            aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
+                            <path d="M95,5 5,5 5,95 95,95 95,5" fill="yellow" />
+                        </svg>
+                        </button>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+          </main>
+          <!-- FOOTER -->
         <footer>
             <span>Made by Colin</span>
+            <br />
             <a href="https://github.com/CDJ64/simon">GitHub</a>
         </footer>
     </body>
