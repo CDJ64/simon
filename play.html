@@ -38,65 +38,31 @@
             </nav>
         </header>
         <!-- MAIN -->
-        <main>
+        <main class="bg-secondary">
             <div class="players">
                 Player:
                 <span class="player-name">Beter</span>
             </div>
-            <div>
-                <label for="count">Score</label>
-                <input type="text" id="count" value="--" readonly />
+            <div class="game">
+                <div class="button-container">
+                    <button class="button-top-left"></button>
+                    <button class="button-top-right"></button>
+                    <button class="button-bottom-left"></button>
+                    <button class="button-bottom-right"></button>
+                    <div class="controls center">
+                        <div class="game-name">Simon<sup>&reg;</sup></div>
+                        <div class="score center">--</div>
+                        <button>Reset</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <button>Reset</button>
+        </main>
+        <!-- FOOTER -->
+        <footer class="bg-dark text-dark text-muted">
+            <div class="container-fluid">
+                <span class="text-reset">Made by Colin</span>
+                <a class="text-reset" href="https://github.com/CDJ64/simon">GitHub</a>
             </div>
-            <div>
-                <table>
-                    <tr>
-                    <td>
-                        <button>
-                            <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
-                                <!-- SVG
-                                M move <to x,y>
-                                Q quadratic curve <control point x,y> <to x,y>
-                                -->
-                                <path d="M 95,5 95,95 5,95 5,5 95,5" fill="green" />
-                            </svg>
-                        </button>
-                    </td>
-                    <td>
-                        <button>
-                        <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
-                            <path d="M5,5 5,95 95,95 95,5 5,5" fill="red" />
-                        </svg>
-                        </button>
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>
-                        <button>
-                        <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
-                            <path d="M5,5 95,5 95,95 5,95 5,5" fill="blue" />
-                        </svg>
-                        </button>
-                    </td>
-                    <td>
-                        <button>
-                        <svg
-                            aria-hidden="true" viewBox="0 0 100 100" height="100" width="100" >
-                            <path d="M95,5 5,5 5,95 95,95 95,5" fill="yellow" />
-                        </svg>
-                        </button>
-                    </td>
-                    </tr>
-                </table>
-            </div>
-          </main>
-          <!-- FOOTER -->
-        <footer>
-            <span>Made by Colin</span>
-            <br />
-            <a href="https://github.com/CDJ64/simon">GitHub</a>
         </footer>
     </body>
 </html>
