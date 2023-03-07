@@ -46,7 +46,7 @@ const btnDescriptions = [
       this.allowPlayer = false;
       this.sequence = [];
       this.playerPlaybackPos = 0;
-      this.mistakeSound = loadSound('error.mp3');
+      this.mistakeSound = loadSound('vine_boom.mp3');
   
       document.querySelectorAll('.game-button').forEach((el, i) => {
         if (i < btnDescriptions.length) {
